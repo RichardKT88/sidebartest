@@ -1,10 +1,9 @@
 import React from 'react'
-import '../components/Navbar.css';
 
-export default function Home()  {
+export default function Home() {
     return (
-
+        <div className='home'>
             <h1>Seu Perfil</h1>
-
+        </div>
     )
 }
